@@ -4,116 +4,92 @@
 
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Davide Boschetto, PhD
+    tagline: Deep Learning Specialist
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: davide.boschetto@alumni.imtlucca.it
+    phone:
+    website: davideboschetto.github.io #do not add http://
+    linkedin: dboschetto
+    github: davideboschetto
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@BoschettoDavide'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Italian
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: Professional - C1
 
     interests:
-      - item: Climbing
+      - item: Audiobooks
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Videogames
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I lead the AI technical developments from the R&D software group at Microtec and Biometic, improving the grading capabilities 
+      of our software libraries with massive usage of AI algorithms.
+      I've moved to this sector after two a brief stints as Freelance Computer Vision Engineer at Hawkeye Innovations and as Data 
+      Scientist (working on NLP) and a PhD obtained on appling Machine Learning to biomedical computer vision. 
+      I still enjoy participating to competition and challenges in the biomedical field.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: PhD in Image Analysis
+      university: IMT Institute for Advanced Studies, Lucca, Italy
+      time: 2013 - 2016
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Thesis focused on the creation of a Computer Aided Decision Support System (CADSS) for quantitative analysis of two diseases from confocal endoscopy 
+        images and videos.
+          - Usage of ML techinques (Random Forest, SVMs, boosting)
+          - Experience with all Computer Vision related fields (image registration, image segmentation, matched filtering)
+          - Courses in Machine Learning, Pattern Recognition, Cloud Computing, Data Mining and Data Wrangling, Optimization and Optimal Control
+    - degree: MSc in Bioengineering
+      university: University of Padua, Italy
+      time: 2009 - 2012
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Thesis based on the application of Compressed Sensing / Compressive Sampling applied to DSC-MRI images, to reduce scan times while maintaining all the useful information in the scans.
+        Courses were strongly focused on Computer Vision and biomedical images
+    - degree: BSc in Biomedical Engineering
+      university: University of Padua, Italy
+      time: 2006 - 2009
+      details: |
+        Introductory engineering courses and first approaches to signal processing and image analysis.
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Deep Learning Specialist
+      time: 2017 - Present
+      company: Microtec GmbH - Venice, Italy
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        In the R&D Software department, I am involved in all AI solutions, from inception to deployment.
+          - Plan and organize data collection according to the specifics and constraints of the problem
+          - Data cleansing and model training
+          - Model deploying in production in different environments 
+    - role: Freelance Software Engineer - Remote
+      time: 2018 - 2018
+      company: Hawkeye Innovations, Basingstoke, UK
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        First approaches to applying AI for alternative solutions to Computer Vision problems in the field (video matting). 
+    - role: Data Scientist
+      time: 2016 - 2017
+      company: Previnet - Treviso, Italy
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        As part of the Data Science team, I was responsible for improving existing algorithms for Natural Language Processing, with the
+        purpose of improving internal search engines and synonyms databases with the purpose of information extraction from medical prescriptions
+        and diseases, based on ICD.
+          - Traditional NLP (ngrams, tf-idf, GloVe)
+          - Dual LSTMs and generative models for named entity recognition and chatbots
 projects:
     title: Projects
     intro: >
@@ -141,6 +117,7 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
+
 publications:
     title: Publications
     intro: |
@@ -148,20 +125,61 @@ publications:
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
+      - title: Improving knot segmentation using Deep Learning techniques
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: S. Giovannin, D. Boschetto, A. Busatto, E. Vicario, M. Cossi, E. Ursella
+        conference: SPIE Medical Imaging 2017, Orlando, Florida, USA, February 11th - 16th, 2017.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: Superpixel-based classification of gastric chromoendoscopy images
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        authors: D. Boschetto, E. Grisan
+        conference: SPIE Medical Imaging 2017, Orlando, Florida, USA, February 11th - 16th, 2017.
 
-      - title: A syntax directed compiler for Algol 60
+      - title: Superpixel-based automatic segmentation of villi in confocal endomicroscopy
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: DD. Boschetto, H. Mirzaei, R. Leong, E. Grisan
+        conference: IEEE International Conference on Biomedical and Health Informatics (BHI) 2016, February 24-27, Las Vegas, Nevada, USA.
+              
+      - title: Automatic Classification of Endoscopic Images for Premalignant Conditions of the Esophagus
+        link: "#"
+        authors: D. Boschetto, G. Gambaretto, E. Grisan
+        conference: SPIE Medical Imaging 2016, San Diego, California, USA, February 27th - March 3rd, 2016.
+
+      - title: Automatic Classification of Small Bowel Mucosa Alterations in Celiac Disease for Confocal Laser Endomicroscopy
+        link: "#"
+        authors: D. Boschetto, E. Grisan
+        conference: SPIE Medical Imaging 2017, Orlando, Florida, USA, February 11th - 16th, 2017.
+
+      - title: Detection and density estimation of goblet cells in confocal endoscopy for the evaluation of celiac disease
+        link: "#"
+        authors: D. Boschetto, H. Mirzaei, R. Leong and E. Grisan
+        conference: 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), August 25-29 2015.
+
+      - title: Semiautomatic detection of villi in confocal endoscopy for the evaluation of celiac disease
+        link: "#"
+        authors: D. Boschetto, H. Mirzaei, R. Leong, G. Tarroni and E. Grisan
+        conference: 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), August 25-29 2015.
+              
+      - title: Synthetic Generation of Myocardial Blood-oxygen-level-dependent MRI Time Series via Structural Sparse Decomposition Modeling
+        link: "#"
+        authors: C. Rusu, R. Morisi, D. Boschetto, R. Dharmakumar and S. A. Tsaftaris
+        conference: IEEE Trans. Med. Imaging, 33 (7), pp. 1422-1433, 2014.
+                      
+      - title: Temporal and Spatial Variation of Baseline Myocardial BOLD Signal Intensity in Cardiac Phase-Resolved BOLD MRI: A Potentially Revealing Insight into Dynamic Changes in Myocardial Oxygenation
+        link: "#"
+        authors: D. Boschetto, C. Rusu, R. Dharmakumar, S. A. Tsaftaris
+        conference: Joint Annual Meeting ISMRM-ESMRMB 2014, SMRT 23rd Annual Meeting, Milan, Italy, p. 2383, 2014.
+              
+      - title: Baseline constrained reconstruction of DSC-MRI data tracer kinetics from sparse Fourier data
+        link: "#"
+        authors: D. Boschetto, P. Di Prima, M. Castellaro, A. Bertoldo, E. Grisan
+        conference: 11th IEEE International Symposium on Biomedical Imaging (ISBI 2014), April 29th - May 2nd, Beijing, China, pp. 321-4, 2014.
+                      
+      - title: Reconstruction of DSC-MRI data from sparse data exploiting temporal redundancy and contrast localization
+        link: "#"
+        authors: D. Boschetto, M. Castellaro, P. Di Prima, A. Bertoldo, E. Grisan
+        conference: XIII Mediterranean Conference on Medical and Biological Engineering and Computing 2013, IFMBE Proceedings Volume 41, pp 225-228, 2014.
+
 
 skills:
     title: Skills &amp; Proficiency

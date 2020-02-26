@@ -3,16 +3,16 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Davide Boschetto, PhD
-    tagline: Deep Learning Specialist
+    name: Davide Boschetto
+    tagline: PhD, AI Specialist
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: davide.boschetto@alumni.imtlucca.it
+    email: davide.boschetto@imtlucca.it
     phone:
     website: davideboschetto.github.io #do not add http://
     linkedin: dboschetto
@@ -90,45 +90,42 @@ experiences:
         and diseases, based on ICD.
           - Traditional NLP (ngrams, tf-idf, GloVe)
           - Dual LSTMs and generative models for named entity recognition and chatbots
+
 projects:
-    title: Projects
+    title: AI Skillset in brief
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      In this section I will briefly list all the data science pipeline steps in which I think I'm worth:
     assignments:
-      - title: Velocity
+      - title: Data Engineering
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "todo."
+        
+      - title: Modeling
+        link: "#hook"
+        tagline: "todo."
+        
+      - title: Deployment
+        link: "#hook"
+        tagline: "todo."
+        
+      - title: Business Analysis
+        link: "#hook"
+        tagline: "todo."
+        
+      - title: AI Infrastructure
+        link: "#hook"
+        tagline: "todo."
 
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      A list of my academic publications.
     papers:
       - title: Improving knot segmentation using Deep Learning techniques
         link: "#"
-        authors: S. Giovannin, D. Boschetto, A. Busatto, E. Vicario, M. Cossi, E. Ursella
-        conference: SPIE Medical Imaging 2017, Orlando, Florida, USA, February 11th - 16th, 2017.
+        authors: S. Giovannini, D. Boschetto, A. Busatto, E. Vicario, M. Cossi, E. Ursella
+        conference: 21st International Nondestructive Testing and Evaluation of Wood Symposium, 2019.
 
       - title: Superpixel-based classification of gastric chromoendoscopy images
         link: "#"
@@ -185,22 +182,19 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Keras
         level: 98%
 
-      - name: Angular
+      - name: Tensorflow
         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Pytorch, fastai
+        level: 70%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: C++ and cuDNN
         level: 60%
 
 footer: >

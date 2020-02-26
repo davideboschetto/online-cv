@@ -98,23 +98,23 @@ projects:
     assignments:
       - title: Data Engineering
         link: "#hook"
-        tagline: "todo."
+        tagline: "Involved in defining data requirements, augmenting data, moving data, building data pipelines, querying data and tracing data."
         
       - title: Modeling
         link: "#hook"
-        tagline: "todo."
+        tagline: "My main occupation: training deep learning models, accelerating training, define evaluation metrics, speeding up inference, full iteration between idea/code/experiment, hyperparameter search with AutoML, remaining up to date"
         
       - title: Deployment
         link: "#hook"
-        tagline: "todo."
+        tagline: "Local deployments, custom backend to run inference with C++"
         
       - title: Business Analysis
         link: "#hook"
-        tagline: "todo."
+        tagline: "Presenting technical work to clients and colleagues, extracting metrics from predictions, visualize those metrics to obtain actionable business insights."
         
       - title: AI Infrastructure
         link: "#hook"
-        tagline: "todo."
+        tagline: "Design for scale, maintaining software infrastructure for inference and training, securing data and models."
 
 
 publications:
